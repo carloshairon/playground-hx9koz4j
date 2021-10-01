@@ -74,12 +74,12 @@ print("Depois da atribuição a p2")
 print("p1.x=\(p1.x)")
 print("p2.x=\(p2.x)")
 
-//Assim fica claro o que é um Value Type. Ou seja quando ocorre atribuições em um elemento da estrutura (p1=p2) nada acontece com o elemento que recebeu a cópia (nesse caso alterações em p2 não interferem em p1).
-
-
 ```
+**- IMPORTANTE** Assim fica claro o que é um Value Type. Ou seja quando ocorre atribuições em um elemento da estrutura (p1=p2) nada acontece com o elemento que recebeu a cópia (nesse caso alterações em p2 não interferem em p1).
 
-### Veja um exemplo de como funciona um Value Type.  
+
+
+### Veja um exemplo de como funciona um Reference Type.  
 ==> Você pode fazer um exemplo usando sua classe quadrado? 
 
 
@@ -114,9 +114,10 @@ azaleia.cor = "violeta"
 lirio.show()
 azaleia.show()
 
-//Assim fica claro o que é um Reference Type. Ou seja quando ocorre atribuições em um objeto de uma classe (lirio = azaleia) esse objeto (lirio) recebe uma referência para o obejto (azaleia) e não uma cópia. Assim, alterações em azaleia irão refletir em lírio.
-
 ```
+
+**- IMPORTANTE** Assim fica claro o que é um Reference Type. Ou seja quando ocorre atribuições em um objeto de uma classe (lirio = azaleia) esse objeto (lirio) recebe uma referência para o obejto (azaleia) e não uma cópia. Assim, alterações em azaleia irão refletir em lírio.
+
 
 ### Veja mais um exemplo de como funciona um Value e Reference Types.  
 ==> Você pode fazer modificações no exemplo de modo a incluir comentários do que está acontecendo? 
@@ -143,7 +144,7 @@ let videoMode = VideoMode()
 let anotherMode = videoMode
 anotherMode.frameRate = 24.0
 print(videoMode.frameRate)
-
+```
 
 ###Quando usar structs:**
  * Quando queremos encapsular dados relativamente simples
