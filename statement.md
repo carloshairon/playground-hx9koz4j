@@ -146,7 +146,7 @@ anotherMode.frameRate = 24.0
 print(videoMode.frameRate)
 ```
 
-###Quando usar structs:**
+###Quando usar structs:
  * Quando queremos encapsular dados relativamente simples
  * Quando Propriedades do modelo também são **Value Types**
  * Quando o modelo não precisa herdar nenhuma propriedade ou comportamentos de modelos existentes ( Pode ser alcançado através de protocolos também )
